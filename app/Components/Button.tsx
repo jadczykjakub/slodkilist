@@ -3,9 +3,9 @@ import Link from "next/link";
 import style from "./Button.module.scss";
 
 interface IButton {
-  title: string;
-  to: string;
-  isScroll: boolean;
+  title?: string;
+  to?: string;
+  isScroll?: boolean;
 }
 
 export default function Button({

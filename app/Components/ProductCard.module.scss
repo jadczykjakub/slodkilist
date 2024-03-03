@@ -1,0 +1,18 @@
+.productCard {
+  display: grid;
+  justify-items: center;
+  padding: 30px;
+  border: 2px solid purple;
+  border-radius: 20px;
+  max-width: 300px;
+
+  p {
+    max-width: 90%;
+    text-align: center;
+  }
+}
+
+.img {
+  object-fit: cover;
+  max-width: 100%;
+}

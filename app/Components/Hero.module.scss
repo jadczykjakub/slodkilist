@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  min-height: calc(100vh - 120px);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .right {
+    justify-self: center;
+  }
+}

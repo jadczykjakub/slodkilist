@@ -1,0 +1,16 @@
+.productGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.productDesc {
+  text-align: center;
+  margin-bottom: 100px;
+
+  p {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
